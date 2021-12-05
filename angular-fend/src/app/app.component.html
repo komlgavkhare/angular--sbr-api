@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a  routerLink="employe" routerLinkActive="active" class="nav-link">Employee List</a>
+    </li>
+    <li class="nav-item">
+      <a  routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+    </li>
+  </ul>
+</nav>
+
+
+<marquee direction="right" behavior="alternate" style="background:rgb(182, 123, 182);border:black 3px SOLID" >  
+  {{title}} 
+  </marquee>
+<link href="app.component.css" rel="stylesheet"type="text/css">
+<body>
+  <div class="bg">
+<div class="container">
+  <router-outlet></router-outlet>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <span> All Rights Reserved 2021 @komal Gavkhare</span>
+    </div>
+  
+  </footer>
+  </div>
+</body>
